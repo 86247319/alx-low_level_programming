@@ -4,7 +4,7 @@
 /**
  * main - entry point
  *
- * Description: false or true vaildation
+ * Description: false or true vaildation answer
  *
  * Return : 0 (success)
 */
