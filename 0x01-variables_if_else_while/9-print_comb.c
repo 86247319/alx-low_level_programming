@@ -26,7 +26,7 @@ int main(void)
 
 		digit++;
 	}
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
