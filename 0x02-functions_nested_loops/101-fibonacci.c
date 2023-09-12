@@ -3,9 +3,8 @@
 /**
  * main - entry point
  *
- * descerpition:computes the sum of all
- *              the multiples of 3 or 5
- *              blew 1024 (excluded)
+ * descerpition:prints the frist 50 fibonacci numbers
+ *		starting with 1 and 2 folled by a new line
  *
  * Return: Always 0 (success)
  */
