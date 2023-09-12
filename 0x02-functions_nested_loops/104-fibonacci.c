@@ -12,7 +12,7 @@
 int main(void)
 {
 	int count, initialos;
-	unsigned long f1 = 1, f2 = 2, 
+	int unsigned long int f1 = 1, f2 = 2, 
 			sum, mx = 1000000, flo = 0, f2o = 0, sumo = 0;
 
 	for (count = 1; count <= 98; count++)
@@ -23,7 +23,7 @@ int main(void)
 
 		while (flo > 0 && initialos > 0)
 		{
-			printf("%d", f1);
+			printf("%ld", f1);
 			initialos--;
 		}
 
