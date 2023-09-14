@@ -7,9 +7,8 @@
  *@a:frist input
  *@b:seconde input
  *
- * return: return results
- *
- */
+ *Return: mul of two intger
+*/
 
 int mul(int a, int b)
 {
