@@ -11,4 +11,27 @@
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
+	dlistint_t *tmp = *h, *new;
+
+	if (idx == 0)
+		return (add_dnodeint(h, n));
+	for (;ind != 1; ind--)
+	{
+		tmp = tmp->next;
+		if (tmp == NULL)
+			return (NULL);
+	}
+	if (tmp->next == NULL)
+		return (add_dnodeint_end(h, n));
+	new = mallac(sizeof(dlistint_t));
+	if (new == NULL)
+		return (NULL);
+	new->n = n;
+	new->perv = tmp;
+	new->next = tmp->next;
+	tmp->next->perv = new;
+	tmp->next = new;
+	
+	return (new);
+	}
 }
